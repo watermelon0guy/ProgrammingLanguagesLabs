@@ -1,0 +1,24 @@
+        -:    0:Source:C:/Code/C++/LabTest/digits.cpp
+        -:    0:Graph:C:\Code\C++\LabTest\cmake-build-debug-coverage\CMakeFiles\LabTest.dir\digits.cpp.gcno
+        -:    0:Data:C:\Code\C++\LabTest\cmake-build-debug-coverage\CMakeFiles\LabTest.dir\digits.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by watermelon on 14.09.2022.
+        -:    3://
+        -:    4:
+        -:    5:#include "digits.h"
+        -:    6:
+function _Z6digitsi called 0 returned 0% blocks executed 0%
+    #####:    7:int digits(int n) {
+    #####:    8:    int k = 0;
+    #####:    9:    while (n > 10) {
+    %%%%%:    9-block  0
+    %%%%%:    9-block  1
+branch  0 never executed
+branch  1 never executed
+    #####:   10:        n /= 10;
+    %%%%%:   10-block  0
+        -:   11:    }
+    #####:   12:    return k;
+    %%%%%:   12-block  0
+        -:   13:}
